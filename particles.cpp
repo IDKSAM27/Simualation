@@ -3,6 +3,7 @@
 #include <cmath>
 #include <chrono>
 #include <thread>
+#include <algorithm>    //std::clamp , clamp comes in algorithm header
 
 // Particle structure
 struct Particle {
