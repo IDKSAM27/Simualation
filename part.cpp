@@ -1,4 +1,7 @@
 #include<iostream>
+#include<vector>
+
+using namespace std;
 
 struct Particle {
     float x, y;
@@ -14,5 +17,12 @@ const float GRAVITY = 0.1f;
 const float DELTA_TIME = 0.1f;
 
 void clearScreen() {
-    std::cout << 
+    cout << "\033[2J\033[1;1H";
+}
+
+void render(const vector<Particle>& particles) {
+   vector<string> screen(HEIGHT, string(WIDTH, ' ')); 
+
+   for(const auto& particle : particles) {
+
 }
