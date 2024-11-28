@@ -85,7 +85,7 @@ int main() {
         clearScreen();
         render(particles);
         update(particles);
-        std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Control frame rate
+        std::this_thread::sleep_for(std::chrono::milliseconds(5)); // Control frame rate
     }
 
     return 0;
