@@ -1,2 +1,2 @@
 # Simulation
-A basic simulation (particle) in cpp.
+Basic simulationS (particleS) in cpp.
